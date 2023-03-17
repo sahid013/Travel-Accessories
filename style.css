@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
 }
-.header{
-    height: 100%;
+
+body {
+     height: 100%;
     background-color:#09233f;
     position: relative;
-    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(home10.avif);
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(images/background1.png);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -15,6 +16,21 @@
     text-align: center;
     color: white;
 }
+/* .header{
+    height: 100%;
+    background-color:#09233f;
+    position: relative;
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(images/background1.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
+
+} */
 .header img{
     width: 170px;
     float: left;
